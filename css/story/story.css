@@ -1,12 +1,12 @@
-/* CSS Structure */
+/* CSS Structure STORY */
 
 /* Header */
 
 @font-face {
-font-family: 'Berlin Sans FB';
+font-family: "Berlin Sans FB";
 font-style: normal;
 font-weight: normal;
-src: local('Berlin Sans FB'), url('../BRLNSR.woff') format('woff');
+src: local(Berlin Sans FB), url("../BRLNSR.woff") format("woff");
 }
 
 .metadiv{
@@ -19,6 +19,7 @@ src: local('Berlin Sans FB'), url('../BRLNSR.woff') format('woff');
 	left: 0;
 }
 
+
 .header{
 	background-color:#232020;
 	opacity:0.7;
@@ -30,7 +31,6 @@ src: local('Berlin Sans FB'), url('../BRLNSR.woff') format('woff');
 
 .header-mid{
 	width: 90%;
-	height: 100px; 
 	margin: 0 auto;
 }
 
@@ -51,7 +51,6 @@ src: local('Berlin Sans FB'), url('../BRLNSR.woff') format('woff');
 	height:100px;
 	float:right;
 	text-align:right;
-	position:fixed;
 	margin-right: 60px;
 	right: 0;
 }
@@ -76,22 +75,30 @@ a:hover{
     color:white;
     font-family:"Berlin Sans FB";
     text-align:right;
-    display:flex;
-    padding-top: 1.6vw;
+    font-size: 4vh;
     float:right;
-    overflow:hidden;
-    margin-right: 60px;
+    max-height: 100px;
 }
+
+li { display: inline; }
+
+@media only screen and (max-device-width: 600px) and (min-device-width:300px) {
+  .navigation, .menu, li, .contact{
+    font-size: 1.5vh;
+  }
+}
+
+
 
 .contact{
     background-color: #800080;
 	border-radius: 25px;
   	border: 2px solid white; 
-  	width: 120px;
-  	height: 40px; 
+  	max-width: 140px;
+  	max-height: 60px; 
   	color:white;
   	font-family:"Berlin Sans FB";
-  	font-size: 4vh;
+  	font-size: 1em;
 	bottom: 50px;
 	display: inline;
 
