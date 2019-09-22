@@ -11,13 +11,13 @@ src: local(Berlin Sans FB), url("../BRLNSR.woff") format("woff");
 
 .metadiv{
 	background-color:transparent;
-	width:110%;
 	position:absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 }
+
 
 .header{
 	background-color:#232020;
@@ -77,10 +77,17 @@ a:hover{
     font-family:"Berlin Sans FB";
     text-align:right;
     display:flex;
-    padding-top: 1.6vw;
+    padding-top:1em;
+    font-size: 1em;
     float:right;
     overflow:hidden;
     margin-right: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .navigation, ul{
+    font-size: 60%;
+  }
 }
 
 .contact{
@@ -455,8 +462,8 @@ a:hover{
 
 .text-rev-one{
 	background-color:transparent;
-	width:80%;
-	float:left;
+	width:70%;
+	float:right;
 }
 
 /* Review 2 */
@@ -479,8 +486,8 @@ a:hover{
 
 .text-rev-two{
 	background-color:transparent;
-	width:80%;
-	float:right;
+	width:70%;
+	float:left;
 }
 
 /* Review 3 */
@@ -503,8 +510,8 @@ a:hover{
 
 .text-rev-three{
 	background-color:transparent;
-	width:80%;
-	float:left;
+	width:70%;
+	float:right;
 }
 
 /* HOMEPAGE END */
