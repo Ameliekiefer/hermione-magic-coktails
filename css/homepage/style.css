@@ -440,7 +440,7 @@ li { display: inline; }
 	color:grey;
 	margin-left:30px;
 	padding-top:20px;
-	font-size:1em;
+	font-size:1.3em;
 	}
 
 .reviewname{
@@ -448,7 +448,7 @@ li { display: inline; }
 	font-weight: bold;
 	color:#800080;
 	margin-left:30px;
-	font-size:1em;
+	font-size:1.3em;
 	}
 
 /* Review 1 */
