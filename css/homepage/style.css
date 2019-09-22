@@ -1,0 +1,514 @@
+/* CSS Structure */
+
+/* Header */
+
+
+.metadiv{
+	background-color:transparent;
+	width:100%;
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header{
+	background-color:#232020;
+	opacity:0.7;
+	width: 100%;
+	height: 100px; 
+	margin: 0 auto;
+	position:fixed;
+}
+
+.header-mid{
+	width: 90%;
+	height: 100px; 
+	margin: 0 auto;
+}
+
+
+.logo{
+	width:20%;
+	height:100px;
+	float:left;
+	position:fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url("../../images/homepage/logo1.png");
+
+}
+
+.menu{
+	width:80%;
+	height:100px;
+	float:right;
+	text-align:right;
+	position:fixed;
+	margin-right: 60px;
+	right: 0;
+}
+
+li{
+	list-style-type: none;
+	margin: 0 3vw;
+	font-size: 4vh;
+}
+
+a:link, a:active, a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#800080;
+	text-decoration: none;
+}
+
+.navigation{	
+    color:white;
+    font-family:"Berlin Sans FB";
+    text-align:right;
+    display:flex;
+    padding-top: 1.6vw;
+    float:right;
+    overflow:hidden;
+    margin-right: 60px;
+}
+
+.contact{
+    background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white; 
+  	width: 120px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 4vh;
+	bottom: 50px;
+	display: inline;
+
+}
+
+.contact:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+
+
+
+/* Footer */
+
+
+.footer{
+	background-color:#232020;
+	width: 100%;
+	height: 300px; 
+	margin: 0 auto;
+}
+
+.footer-meta{
+	width:90%;
+	height:300px;
+	margin: 0 auto;
+	}
+
+.footer-one, .footer-two, .footer-three{
+	width:33.333%;
+	height:250px;
+	float:left;
+	}
+
+.join{
+	background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white;
+  	padding: 5px; 
+  	width: 100px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 0.9em;
+  	margin-left:100px;
+
+}
+
+.join:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+.social{
+	width:100px;
+	height:40px;
+	float:left;
+	margin-left:100px;
+	background-color:transparent; ;
+
+}
+
+.facebook{
+	width:40px;
+	height:40px;
+	float:left;
+	border-radius: 50%;
+	background-image:url("../../images/footer/facebook-share-icon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:white;
+
+}
+
+.space{
+	width:10px;
+	height:40px;
+	float:left;
+	background-color:transparent;
+}
+
+.instagram{
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	float:left;
+	background-image:url("../../images/footer/instagram-new-flat.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+}
+
+
+
+.footer-titles{
+	font-family: "arial";
+	font-size:1em;
+	font-weight: bold;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	}
+
+.footer-text{
+	font-family: "arial";
+	font-size:0.8em;
+	font-weight: normal;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	margin-top:0px;
+	}
+
+
+
+
+
+
+
+
+
+
+/* HOMEPAGE */
+
+/* Banner */
+
+.banner{
+	background-image:url("../../images/homepage/header-potions.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:720px; 
+	margin: 0 auto;
+}
+
+.business{
+	background-color:transparent;
+	width: 100%;
+	height: 720px; 
+	float:left;
+	margin-left: 70px;
+}
+
+.headertitle{
+	color:white;
+    font-family:"Berlin Sans FB";
+    text-align:left;
+    font-size: 5em;
+    padding-top: 150px;
+
+}
+
+.whitetext{
+	color:white;
+    font-family:"Arial";
+    text-align:left;
+    font-size: 2em;
+    padding-bottom: 40px;
+
+}
+
+.seeourpotions{
+	background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white;
+  	padding: 5px; 
+  	width: 150px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 0.9em;
+}
+
+.seeourpotions:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+
+
+
+/* Brand's values */
+
+.values{
+	background-color: white;
+	width: 100%;
+	height: 800px;
+}
+
+.valuestext{
+	color:#800080;
+	font-family: arial;
+	font-size: 2em;
+	text-align:center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top: 70Px;
+}
+
+.values-block-one{
+	width: 100%;
+	height:200px;
+	margin:0 auto;
+	text-align: center;
+	background-color:transparent;
+}
+
+.values-block-two{
+	width: 80%;
+	height: 300px;
+	background-color:transparent;
+	margin:0 auto;
+}
+
+.confidential, .efficacy, .homemade{
+	width:33%;
+	max-height:250px;
+	margin:0 auto;
+	float:left;
+}
+
+.confidential-pic{
+	width:auto;
+	max-height:250px;
+	margin:0 auto;
+	content:url("../../images/homepage/confidentiality.png");
+}
+
+.efficacy-pic{
+	width:auto;
+	height: 250px;
+	content:url("../../images/homepage/efficacy.png");
+	margin:0 auto;
+}
+
+.homemade-pic{
+	width:auto;
+	height: 250px;
+	content:url("../../images/homepage/bottle.png");
+	margin:0 auto;
+}
+
+.values-block-three{
+	color:#800080;
+	font-family: arial;
+	font-size: 0.9em;
+	text-align:center;
+	font-style: italic;
+	width: 80%;
+	height: 100px;
+	margin:0 auto;
+	background-color:transparent;
+	word-spacing: 5em;
+}
+
+.confidential-text, .efficacy-text, .homemade-text{
+	width:33.333%;
+	height: 50px;
+	margin:0 auto;
+	float:left;
+}
+
+
+.valuesadvert{
+	color:#800080;
+	font-family: arial;
+	font-size: 1.3em;
+	text-align:center;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.values-block-four{
+	width: 100%
+	height:500px;
+	margin:0 auto;
+	text-align: center;
+	background-color:transparent
+	padding-top:50px;
+}
+
+
+
+/* CTA */
+
+.cta{
+	background-image:url("../../images/homepage/bouteille-renversee-final.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.cta-block-one{
+	background-color:transparent;
+	width: 50%;
+	float:left;
+	height:100px;
+	margin-left:70px;
+	padding-top:100px;
+}
+
+
+
+/* Reviews */
+
+.reviews{
+	background-color:white;
+	width: 100%;
+	height: 1050px; 
+	margin: 0 auto;
+}
+
+.purpletext{
+	color:#800080;
+    font-family:"Arial";
+    text-align:center;
+    font-size: 2em;
+    padding-top: 70px;
+    padding-bottom:40px;
+
+}
+
+.reviewtext{
+	font-family: "arial";
+	color:grey;
+	margin-left:30px;
+	padding-top:20px;
+	font-size:1em;
+	}
+
+.reviewname{
+	font-family: "arial";
+	font-weight: bold;
+	color:#800080;
+	margin-left:30px;
+	font-size:1em;
+	}
+
+/* Review 1 */
+
+.review-one{
+	background-color:transparent;
+	width: 80%;
+	height:200px; 
+	margin: 0 auto;
+}
+
+.pic-rev-one{
+	content:url("../../images/homepage/review1.jpg");
+	height:200px;
+	width:auto;
+	float:left;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.text-rev-one{
+	background-color:transparent;
+	height:200px;
+	width:80%;
+	float:left;
+}
+
+/* Review 2 */
+
+.review-two{
+	background-color:transparent;
+	width: 80%;
+	height: 200px; 
+	margin: 0 auto;
+}
+
+.pic-rev-two{
+	content:url("../../images/homepage/review2.jpg");
+	height:200px;
+	width:auto;
+	float:right;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.text-rev-two{
+	background-color:transparent;
+	height:200px;
+	width:85%;
+	float:right;
+}
+
+/* Review 3 */
+
+.review-three{
+	background-color:transparent;
+	width: 80%;
+	height: 200px; 
+	margin: 0 auto;
+}
+
+.pic-rev-three{
+	content:url("../../images/homepage/review3.jpg");
+	height:200px;
+	width:auto;
+	float:left;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.text-rev-three{
+	background-color:transparent;
+	height:150px;
+	width:80%;
+	float:left;
+}
+
+/* HOMEPAGE END */
+
+
+
+
+
+
+

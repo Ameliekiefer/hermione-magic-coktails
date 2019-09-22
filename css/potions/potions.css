@@ -1,0 +1,564 @@
+/* CSS Structure */
+
+/* Header */
+
+
+.metadiv{
+	background-color:#800080;
+	width:100%;
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header{
+	background-color:#232020;
+	opacity:0.7;
+	width: 100%;
+	height: 100px; 
+	margin: 0 auto;
+	position:fixed;
+}
+
+.header-mid{
+	width: 90%;
+	height: 100px; 
+	margin: 0 auto;
+}
+
+
+.logo{
+	width:20%;
+	height:100px;
+	float:left;
+	position:fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url("../../images/homepage/logo1.png");
+
+}
+
+.menu{
+	width:80%;
+	height:100px;
+	float:right;
+	text-align:right;
+	position:fixed;
+	margin-right: 60px;
+	right: 0;
+}
+
+li{
+	list-style-type: none;
+	margin: 0 3vw;
+	font-size: 4vh;
+}
+
+a:link, a:active, a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#800080;
+	text-decoration: none;
+}
+
+.navigation{	
+    color:white;
+    font-family:"Berlin Sans FB";
+    text-align:right;
+    display:flex;
+    padding-top: 1.6vw;
+    float:right;
+    overflow:hidden;
+    margin-right: 60px;
+}
+
+.contact{
+    background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white; 
+  	width: 120px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 4vh;
+	bottom: 50px;
+	display: inline;
+
+}
+
+.contact:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+
+
+
+/* Footer */
+
+
+.footer{
+	background-color:#232020;
+	width: 100%;
+	height: 300px; 
+	margin: 0 auto;
+}
+
+.footer-meta{
+	width:90%;
+	height:300px;
+	margin: 0 auto;
+	}
+
+.footer-one, .footer-two, .footer-three{
+	width:33.333%;
+	height:250px;
+	float:left;
+	}
+
+.join{
+	background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white;
+  	padding: 5px; 
+  	width: 100px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 0.9em;
+  	margin-left:100px;
+
+}
+
+.join:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+.social{
+	width:100px;
+	height:40px;
+	float:left;
+	margin-left:100px;
+	background-color:transparent; ;
+
+}
+
+.facebook{
+	width:40px;
+	height:40px;
+	float:left;
+	border-radius: 50%;
+	background-image:url("../../images/footer/facebook-share-icon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:white;
+
+}
+
+.space{
+	width:10px;
+	height:40px;
+	float:left;
+	background-color:transparent;
+}
+
+.instagram{
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	float:left;
+	background-image:url("../../images/footer/instagram-new-flat.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+}
+
+
+
+.footer-titles{
+	font-family: "arial";
+	font-size:1em;
+	font-weight: bold;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	}
+
+.footer-text{
+	font-family: "arial";
+	font-size:0.8em;
+	font-weight: normal;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	margin-top:0px;
+	}
+
+
+
+
+
+
+
+/* OUR POTIONS */
+
+/* Title section */
+
+.sectiontitle{
+	background-color:#800080;
+	height:400px;
+	width:100%;
+	
+}
+
+.sectiontitle-text{
+	color:white;
+    font-family:"Berlin Sans FB";
+    text-align:left;
+    font-size: 3em;
+    padding-top: 150px;
+    margin-left:100px;
+}
+
+
+/* Product slides */
+
+.product-container{
+  max-width:100%;
+  height:600px;
+  background-color:black;
+  position: relative;
+  margin: 0 auto;
+}
+
+.potion-one, .potion-two, .potion-three{
+  width:70%;
+  height:500px;
+  background-color:black;
+  margin:0 auto;
+}
+
+
+.potion-one-pic{
+  width:40%;
+  height:500px;
+  background-color:black;
+  content:url("../../images/potions/amor.png");
+  float:left;
+  padding-top:70px;
+}
+
+.potion-two-pic{
+  width:40%;
+  height:500px;
+  background-color:black;
+  content:url("../../images/potions/chaudron.png");
+  float:left;
+  padding-top:70px;
+}
+
+.potion-three-pic{
+  width:40%;
+  height:500px;
+  background-color:black;
+  content:url("../../images/potions/polyjuice.png");
+  float:left;
+  padding-top:70px;
+}
+
+.potion-one-text, .potion-two-text, .potion-three-text{
+  width:50%;
+  height:500px;
+  background-color:black;
+  float:right;
+}
+
+.potion-describ{
+  margin-top: 150px;
+  color:#800080;
+  float:left;
+  font-family:"Arial";
+  font-size: 1.3em;
+  margin-right:130px;
+  
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%;
+  height:500px;
+  background-color:black;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  font-family:"Berlin Sans FB";
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family:"Arial";
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* CTA */
+
+.cta{
+	background-color:#800080;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.cta-block-one{
+	background-color:transparent;
+	width: 50%;
+	float:left;
+	height:100px;
+	padding-top:100px;
+}
+
+.whitetext{
+	color:white;
+    font-family:"Arial";
+    text-align:left;
+    font-size: 1.7em;
+    padding-bottom: 40px;
+    padding-left:100px;
+
+}
+
+.seeourpotions{
+	background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white;
+  	padding: 5px; 
+  	width: 150px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 0.9em;
+  	margin-left:100px;
+}
+
+.seeourpotions:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+.howto{
+	color:white;
+    font-family:"Berlin Sans FB";
+    text-align:left;
+    font-size: 3em;
+    margin-left:100px;
+}
+
+
+
+/* Product menu recap */
+
+
+.values{
+	background-color: white;
+	width: 100%;
+	height: 1100px;
+}
+
+.valuestext{
+	color:#800080;
+	font-family: "Berlin Sans FB";
+	font-size: 3em;
+	text-align:center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top: 70Px;
+}
+
+.values-block-one{
+	width: 100%;
+	height:250px;
+	margin:0 auto;
+	text-align: center;
+	background-color:transparent;
+}
+
+.values-block-two{
+	width: 85%;
+	height: 400px;
+	background-color:transparent;
+	margin:0 auto;
+}
+
+.amor, .confusing, .polyjuice{
+	width:33.333%;
+	height:400px;
+	margin:0 auto;
+	float:left;
+}
+
+.amor-pic{
+	width:auto;
+	height:400px; 
+	margin:0 auto;
+	content:url("../../images/potions/amor.png");
+}
+
+.confusing-pic{
+	width:auto;
+	height:400px;
+	margin:0 auto;
+	content:url("../../images/potions/chaudron.png");
+}
+
+.polyjuice-pic{
+	width:auto;
+	height: 400px;
+	content:url("../../images/potions/polyjuice.png");
+	margin:0 auto;
+}
+
+
+
+.values-block-three{
+	color:#800080;
+	font-family: arial;
+	font-size: 1.3em;
+	text-align:center;
+	font-style: italic;
+	width: 87%;
+	height:100px;
+	margin:0 auto;
+	padding-top:40px;
+	background-color:transparent;
+	word-spacing: 0.9em;
+}
+
+.amor-text, .confusing-text, .polyjuice-text{
+	width:33.333%;
+	height: 50px;
+	margin:0 auto;
+	float:left;
+}
+
+
+.valuesadvert{
+	color:#800080;
+	font-family: arial;
+	font-size: 1.7em;
+	text-align:center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top:30px;
+}
+
+.values-block-four{
+	width: 70%
+	height:400px;
+	margin:0 auto;
+	text-align: center;
+	background-color:transparent
+	padding-top:50px;
+}
+
+
+
+
+/* OUR POTIONS END */
+
+
+
+

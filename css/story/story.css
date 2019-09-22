@@ -1,0 +1,292 @@
+/* CSS Structure */
+
+/* Header */
+
+
+.metadiv{
+	background-color:#800080;
+	width:100%;
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header{
+	background-color:#232020;
+	opacity:0.7;
+	width: 100%;
+	height: 100px; 
+	margin: 0 auto;
+	position:fixed;
+}
+
+.header-mid{
+	width: 90%;
+	height: 100px; 
+	margin: 0 auto;
+}
+
+
+.logo{
+	width:20%;
+	height:100px;
+	float:left;
+	position:fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url("../../images/homepage/logo1.png");
+
+}
+
+.menu{
+	width:80%;
+	height:100px;
+	float:right;
+	text-align:right;
+	position:fixed;
+	margin-right: 60px;
+	right: 0;
+}
+
+li{
+	list-style-type: none;
+	margin: 0 3vw;
+	font-size: 4vh;
+}
+
+a:link, a:active, a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#800080;
+	text-decoration: none;
+}
+
+.navigation{	
+    color:white;
+    font-family:"Berlin Sans FB";
+    text-align:right;
+    display:flex;
+    padding-top: 1.6vw;
+    float:right;
+    overflow:hidden;
+    margin-right: 60px;
+}
+
+.contact{
+    background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white; 
+  	width: 120px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 4vh;
+	bottom: 50px;
+	display: inline;
+
+}
+
+.contact:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+
+
+
+/* Footer */
+
+
+.footer{
+	background-color:#232020;
+	width: 100%;
+	height: 300px; 
+	margin: 0 auto;
+}
+
+.footer-meta{
+	width:90%;
+	height:300px;
+	margin: 0 auto;
+	}
+
+.footer-one, .footer-two, .footer-three{
+	width:33.333%;
+	height:250px;
+	float:left;
+	}
+
+.join{
+	background-color: #800080;
+	border-radius: 25px;
+  	border: 2px solid white;
+  	padding: 5px; 
+  	width: 100px;
+  	height: 40px; 
+  	color:white;
+  	font-family:"Berlin Sans FB";
+  	font-size: 0.9em;
+  	margin-left:100px;
+
+}
+
+.join:hover{
+    background-color:white;
+    border: 2px solid #800080; 
+}
+
+.social{
+	width:100px;
+	height:40px;
+	float:left;
+	margin-left:100px;
+	background-color:transparent; ;
+
+}
+
+.facebook{
+	width:40px;
+	height:40px;
+	float:left;
+	border-radius: 50%;
+	background-image:url("../../images/footer/facebook-share-icon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:white;
+
+}
+
+.space{
+	width:10px;
+	height:40px;
+	float:left;
+	background-color:transparent;
+}
+
+.instagram{
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	float:left;
+	background-image:url("../../images/footer/instagram-new-flat.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+}
+
+
+
+.footer-titles{
+	font-family: "arial";
+	font-size:1em;
+	font-weight: bold;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	}
+
+.footer-text{
+	font-family: "arial";
+	font-size:0.8em;
+	font-weight: normal;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+	padding-top:20px;
+	margin-top:0px;
+	}
+
+
+
+
+
+
+
+/* OUR STORY */
+
+/* Title section */
+
+.sectiontitle{
+	background-color:#800080;
+	height:300px;
+	width:100%;
+	
+}
+
+.sectiontitle-text{
+	color:white;
+    font-family:"Berlin Sans FB";
+    text-align:left;
+    font-size: 3em;
+    padding-top: 150px;
+    margin-left:100px;
+}
+
+
+/* Story */
+
+.storyblack{
+	background-color:black;
+	height:600px;
+	width:100%;
+}
+
+
+.storymeta{
+	background-color:black;
+	height:300px;
+	width:87%;
+	margin:0 auto;
+	
+}
+
+.story-one{
+	background-image:url("../../images/story/hermione.jpg");
+	height:210px;
+	width:150px;
+	float:left;
+	border-radius: 50%;
+	border: 2px solid white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:20px;
+	
+}
+
+.story-two{
+	background-color:black;
+	height:300px;
+	width:80%;
+	float:right;
+	
+}
+
+.storyblack-text{
+	color:white;
+    font-family:"Berlin Sans FB";
+    text-align:left;
+    font-size: 2em;
+    padding-top: 50px;
+    margin-left:100px;
+}
+
+.storystory-text{
+	color:#800080;
+    font-family:"Arial";
+    text-align:left;
+    font-size: 1.2em;
+    margin-left:20px;
+    margin-right:50px;
+}
+
+/* OUR STORY END END */
+
+
+
+
