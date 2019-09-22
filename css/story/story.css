@@ -118,7 +118,7 @@ li { display: inline; }
 .footer{
 	background-color:#232020;
 	width: 100%;
-	height: 300px; 
+	min-height: 300px; 
 	margin: 0 auto;
 }
 
@@ -227,7 +227,7 @@ li { display: inline; }
 
 .sectiontitle{
 	background-color:#800080;
-	height:300px;
+	min-height:300px;
 	width:100%;
 	
 }
@@ -246,22 +246,21 @@ li { display: inline; }
 
 .storyblack{
 	background-color:black;
-	height:600px;
 	width:100%;
 }
 
 
 .storymeta{
 	background-color:black;
-	height:300px;
 	width:87%;
 	margin:0 auto;
+	display:flex;
 	
 }
 
 .story-one{
 	background-image:url("../../images/story/hermione.jpg");
-	height:210px;
+	max-height:210px;
 	width:150px;
 	float:left;
 	border-radius: 50%;
@@ -269,33 +268,40 @@ li { display: inline; }
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top:20px;
+
+
 	
 }
 
 .story-two{
 	background-color:black;
-	height:300px;
 	width:80%;
 	float:right;
 	
 }
+
+
 
 .storyblack-text{
 	color:white;
     font-family:"Berlin Sans FB";
     text-align:left;
     font-size: 2em;
-    padding-top: 50px;
+    padding-top: 90px;
     margin-left:100px;
+
 }
 
 .storystory-text{
 	color:#800080;
     font-family:"Arial";
     text-align:left;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left:20px;
     margin-right:50px;
+    padding-bottom:50px;
+
+
 }
 
 /* OUR STORY END END */
