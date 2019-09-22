@@ -262,35 +262,37 @@ li { display: inline; }
 
 .potion-one-pic{
   width:auto;
-  height:450px;
+  max-height:450px;
   background-color:black;
   content:url("../../images/potions/amor.png");
-  float:left;
-  padding-top:70px;
+  float:right;
+  padding-top:50px;
+  padding-right:60px;
 }
 
 .potion-two-pic{
   width:auto;
-  height:450px;
+  max-height:450px;
   background-color:black;
   content:url("../../images/potions/chaudron.png");
-  float:left;
-  padding-top:70px;
+  float:right;
+  padding-top:50px;
+  padding-right:60px;
 }
 
 .potion-three-pic{
   width:auto;
-  height:450px;
+  max-height:400px;
   background-color:black;
   content:url("../../images/potions/polyjuice.png");
-  float:left;
-  padding-top:70px;
+  padding-top:50px;
+  padding-right:60px;
 }
 
 .potion-one-text, .potion-two-text, .potion-three-text{
-  width:50%;
+  width:70%;
   background-color:black;
-  float:right;
+  float:left;
 }
 
 .potion-describ{
@@ -376,10 +378,10 @@ li { display: inline; }
   cursor: pointer;
   height: 15px;
   width: 15px;
-  position:absolute;
+  overflow:hidden;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  bottom:50%;
   transition: background-color 0.6s ease;
 }
 
@@ -508,6 +510,7 @@ li { display: inline; }
 	width:auto;
 	height:400px; 
 	margin:0 auto;
+	display:flex;
 	content:url("../../images/potions/amor.png");
 }
 
@@ -515,12 +518,14 @@ li { display: inline; }
 	width:auto;
 	height:400px;
 	margin:0 auto;
+	display:flex;
 	content:url("../../images/potions/chaudron.png");
 }
 
 .polyjuice-pic{
 	width:auto;
 	height: 400px;
+	display:flex;
 	content:url("../../images/potions/polyjuice.png");
 	margin:0 auto;
 }
@@ -533,7 +538,7 @@ li { display: inline; }
 	font-size: 1.3em;
 	text-align:center;
 	font-style: italic;
-	width: 87%;
+	width: 97%;
 	height:100px;
 	margin:0 auto;
 	padding-top:40px;
