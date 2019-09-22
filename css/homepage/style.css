@@ -9,6 +9,13 @@ font-weight: normal;
 src: local(Berlin Sans FB), url("../BRLNSR.woff") format("woff");
 }
 
+body, html{
+	margin:0;
+	height:0;
+	width:0;
+}
+
+
 .metadiv{
 	background-color:transparent;
 	width:100%;
